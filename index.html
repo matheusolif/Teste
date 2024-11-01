@@ -3,35 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário 3</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilo/style.css" media="all">
+    <link rel="stylesheet" href="estilo/media-query.css">
 </head>
 <body>
-    <form action="#" autocomplete="on">
-
-        <div>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" minlength="3" maxlength="10" placeholder="Digite aqui" autocomplete="name"> <br>
-            
-            <br><label for="sobrenome">Sobrenome:</label>
-            <input type="text" id="sobrenome" name="surname" minlength="5" maxlength="25" placeholder="Digite aqui" autocomplete="family-name">
-        </div>
-
-        <div>
-            <br>
-            <label for="nascimento">Data de Nascimento:</label>
-            <input type="date" name="calendario" id="nascimento">
-        </div>
-
-        <div>
-            <br>
-            <label for="imedia">Média do Bimestre:</label>
-            <input type="number" name="media" id="imedia" min="1" max="10" step="0.1" placeholder="--">
-        </div>
-        <div>
-            <button type="submit">Enviar</button>
-            <button type="reset">Apagar</button>
-        </div>
-    </form>
+    <main>
+        <h1>Testando Media Queries</h1>
+        <img id="celular" src="imagens/icon-phone.png" alt="versao celular">
+        <img id="tablete" src="imagens/icon-tablet.png" alt="versao tablete">
+        <img id="impressora" src="imagens/icon-print.png" alt="versao impressora">
+        <img id="computador" src="imagens/icon-pc.png" alt="versao computador">
+        <img id="tv" src="imagens/icon-tv.png" alt="versao tv">
+    </main>
 </body>
 </html>
