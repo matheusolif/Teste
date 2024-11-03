@@ -3,18 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Query</title>
-    <link rel="stylesheet" href="estilo/style.css" media="all">
-    <link rel="stylesheet" href="estilo/media-query.css">
+    <title>MQ005</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
+    <header>
+        <h1>OESTE</h1>
+        <span id="menu" class="material-symbols-outlined" onclick="clickMenu ()">menu</span>
+        <nav id="itens">
+            <ul>
+                <li><a href="#">Mundo</a></li>
+                <li> <a href="#">Política</a></li>
+                <li><a href="#">Economia</a></li>
+                <li><a href="#">Tecnologia</a></li>
+                <li><a href="#">Esportes</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <h1>Testando Media Queries</h1>
-        <img id="celular" src="imagens/icon-phone.png" alt="versao celular">
-        <img id="tablete" src="imagens/icon-tablet.png" alt="versao tablete">
-        <img id="impressora" src="imagens/icon-print.png" alt="versao impressora">
-        <img id="computador" src="imagens/icon-pc.png" alt="versao computador">
-        <img id="tv" src="imagens/icon-tv.png" alt="versao tv">
+        <h2>Testando Media Queries com Menu</h2>
+        <article>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse fuga laudantium at in, aut dolor obcaecati, quod aperiam mollitia impedit, inventore earum. Amet iure mollitia fugiat impedit, facilis ab molestiae?
+                Assumenda nisi molestias sint aut tenetur similique, obcaecati, non aperiam voluptate exercitationem consequatur ad. Veritatis, dignissimos similique est quibusdam, eum tempora dolores saepe asperiores omnis quasi eius, unde qui ab.
+            </p>
+            <p>
+                Aperiam tempora iure, et, blanditiis atque hic neque excepturi accusamus temporibus eaque officia impedit ad fuga placeat quisquam? Nesciunt quas facilis voluptatem beatae odio quidem vitae doloremque rerum voluptatibus illo.
+                Saepe aliquam adipisci cumque numquam soluta, perferendis similique laborum corporis repudiandae ipsum nam doloribus totam dolores officia sed maiores natus quod nemo obcaecati eos repellendus temporibus! Molestias dignissimos ea reprehenderit!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed necessitatibus voluptatibus, nihil molestias fugiat non dignissimos qui itaque laborum at corrupti ex. Et in natus minima aut eos numquam officiis.
+                Obcaecati sunt facere temporibus, exercitationem, tempore, voluptatem expedita doloribus ratione earum reprehenderit commodi. Neque ex, corrupti mollitia nam vitae officiis et ut, temporibus illum rerum enim fugit tempora nulla cum.
+                Impedit deleniti vero molestiae voluptas dolores sequi rem soluta. Iste, fuga esse obcaecati accusamus et ea nostrum hic voluptates perspiciatis saepe rem. Saepe voluptatem aut error ex voluptates, sequi et?
+            </p>
+
+        </article>
     </main>
+    <script>
+        function clickMenu(){
+           if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+           } else {
+                itens.style.display = 'block'
+           }
+        }
+    </script>
 </body>
 </html>
